@@ -10,4 +10,9 @@ public class MyController {
     public String sayHello(){
         return "Hello World from CodeNCode";
     }
+
+    @GetMapping("/logout")
+    public String logout(){
+        return "return Logged Out";
+    }
 }
