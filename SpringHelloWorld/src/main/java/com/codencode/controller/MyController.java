@@ -8,7 +8,7 @@ public class MyController {
 
     @GetMapping("/hello")
     public String sayHello(){
-        return "Hello World from CodeNCode";
+        return "Hello World from my name";
     }
 
     @GetMapping("/logout")
